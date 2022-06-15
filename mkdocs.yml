@@ -1,2 +1,17 @@
 site_name: limyel's wiki
 theme: readthedocs
+nav:
+  - 关于: index.md
+  - Java: java.md
+  - Python: python.md
+  - Spring: spring.md
+  - SpringMVC: springmvc.md
+  - SpringBoot: springboot.md
+  - MyBatis: mybatis.md
+  - Elasticsearch: elasticsearch.md
+  - MySQL: mysql.md
+  - Kafka: kafka.md
+  - Go: go.md
+  - Vue: vue.md
+  - Linux: linux.md
+  - 开发工具: devtools.md
