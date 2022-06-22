@@ -1,5 +1,5 @@
 site_name: limyel's wiki
-theme: readthedocs
+theme: material
 nav:
   - 关于: index.md
   - Java: java.md
@@ -14,4 +14,6 @@ nav:
   - Go: go.md
   - Vue: vue.md
   - Linux: linux.md
-  - 开发工具: devtools.md
+  - Windows: windows.md
+  - IDEA: idea.md
+  - NeoVim: neovim.md
