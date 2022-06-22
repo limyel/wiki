@@ -1,19 +1,41 @@
 site_name: limyel's wiki
-theme: material
 nav:
-  - 关于: index.md
-  - Java: java.md
-  - Python: python.md
-  - Spring: spring.md
-  - SpringMVC: springmvc.md
-  - SpringBoot: springboot.md
-  - MyBatis: mybatis.md
-  - Elasticsearch: elasticsearch.md
-  - MySQL: mysql.md
-  - Kafka: kafka.md
-  - Go: go.md
-  - Vue: vue.md
-  - Linux: linux.md
-  - Windows: windows.md
-  - IDEA: idea.md
-  - NeoVim: neovim.md
+  - 语言:
+    - 编程语言: program_language/Program_Language.md
+    - Java: program_language/Java.md
+    - Python: program_language/Python.md
+    - JavaScript: program_language/JavaScript.md
+    - Go: program_language/Go.md
+  - 框架:
+    - Spring: framework/Spring.md
+    - SpringBoot: framework/SpringBoot.md
+    - SpringMVC: framework/SpringMVC.md
+    - MyBatis: framework/MyBatis.md
+    - JPA: framework/JPA.md
+    - Flask: framework/Flask.md
+    - Vue: framework/Vue.md
+  - 数据库/中间件:
+    - MySQL: db_middleware/MySQL.md
+    - Redis: db_middleware/Redis.md
+    - ElasticSearch: db_middleware/ElasticSearch.md
+    - Kafka: db_middleware/Kafka.md
+  - 工具:
+    - IDEA: tool/IDEA.md
+    - NeoVim: tool/NeoVim.md
+  - Blog:
+    - 标签: blog/tags.md
+    - 2022:
+      - 2022年六月第三周: blog/2022/2022年六月第三周.md
+theme:
+  name: material
+  palette:
+    primary: blue
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+  - tags:
+      tags_file: blog/tags.md
