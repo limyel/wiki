@@ -28,6 +28,7 @@ nav:
       - 2022年六月第三周: blog/2022/2022年六月第三周.md
 theme:
   name: material
+  language: zh
   palette:
     primary: blue
   features:
@@ -36,7 +37,7 @@ theme:
     - navigation.sections
 plugins:
   - search:
-      separator: "[\\s\\u200b\\-]+"
+      separator: '[\s\u200b\-]'
       lang: 'zh'
   - tags:
       tags_file: blog/tags.md
