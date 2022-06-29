@@ -37,8 +37,10 @@ theme:
     - navigation.sections
 plugins:
   - search:
-      separator: '[\s\u200b\-]'
-      lang: 'zh'
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+        - ja
   - tags:
       tags_file: blog/tags.md
 copyright: Copyright &copy; 2022 - 2022 <a href="https://github.com/limyel">limyel</a>&nbsp;&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/" class="font-2 color-info">闽ICP备2021003109号-1</a>
